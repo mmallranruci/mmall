@@ -1,0 +1,22 @@
+/*
+ * @Author: ranruci 
+ * @Date: 2017-12-24 14:31:39 
+ * @Last Modified by: ranruci
+ * @Last Modified time: 2017-12-24 14:37:52
+ */
+ .footer{
+     padding-bottom: 10px;
+ }
+ .footer .links{
+     text-align: center;
+     color: #999;
+     line-height: 30px;
+ }
+ .footer .links .link{
+    padding: 0 10px;
+ }
+ .footer .copyright{
+     text-align: center;
+     color: #666;
+     line-height: 30px;
+ }

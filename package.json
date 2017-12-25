@@ -4,10 +4,10 @@
   "description": "前端代码",
   "main": "index.js",
   "scripts": {
-    "dev": "WEBPACK_ENV=dev webpack-dev-server --inline --port 8888",
-    "dist":"WEBPACK_ENV=online webpack -p",
-    "dev_win": "set WEBPACK_ENV=dev && webpack-dev-server --inline --port 8888",
-    "dist_win":"set WEBPACK_ENV=online && webpack -p"
+    "dev": "WEBPACK_ENV=dev webpack-dev-server --inline --port 8009",
+    "dist": "WEBPACK_ENV=online webpack -p",
+    "dev_win": "set WEBPACK_ENV=dev && webpack-dev-server --inline --port 8009",
+    "dist_win": "set WEBPACK_ENV=online && webpack -p"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,8 @@
   },
   "homepage": "https://github.com/mmallranruci/mmall-fe#readme",
   "dependencies": {
+    "font-awesome": "^4.7.0",
+    "hogan": "^1.0.2",
     "webpack": "^1.15.0"
   },
   "devDependencies": {

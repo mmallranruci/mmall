@@ -1,0 +1,27 @@
+/*
+ * @Author: ranruci 
+ * @Date: 2017-12-24 15:26:39 
+ * @Last Modified by: ranruci
+ * @Last Modified time: 2017-12-24 15:33:45
+ */
+ /*导航主体*/
+.nav-side{
+    float: left;
+    width: 130px;
+}
+.nav-side .nav-item{
+    line-height: 25px;
+    font-size: 13px;
+}
+.nav-side .nav-item .link{
+    color: #666;
+}
+.nav-side .nav-item.active .link{
+    color: #c60023;
+    font-weight: bold;
+}
+/*右侧内容区*/
+.content.with-nav{
+    float: left;
+    width: 950px;
+}
